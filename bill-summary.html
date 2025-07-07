@@ -770,31 +770,32 @@
     <div class="navbar-content ps ps--active-y">
                     <ul class="dash-navbar">
                 <!--------------------- Start Dashboard ----------------------------------->
-                                    <li class="dash-item dash-hasmenu
-                                active dash-trigger">
+                                                                                                           <li class="dash-item dash-hasmenu active dash-trigger">
+                        <li class="dash-item dash-hasmenu
+                                ">
                         <a href="#!" class="dash-link ">
                             <span class="dash-micon">
                                 <i class="ti ti-home"></i>
                             </span>
                             <span class="dash-mtext">Dashboard</span>
                             <span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                        <ul class="dash-submenu">
-                                                            <li class="dash-item dash-hasmenu active dash-trigger">
+                        <ul class="dash-submenu" style="display: none;">
+                                                            <li class="dash-item dash-hasmenu ">
                                     <a class="dash-link" href="#">Accounting <span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                                    <ul class="dash-submenu" style="display: block;">
+                                    <ul class="dash-submenu" style="display: none;">
                                                                                     <li class="dash-item ">
                                                 <a class="dash-link" href="dashboard.html"> Overview</a>
                                             </li>
-                                                                                                                            <li class="dash-item dash-hasmenu active dash-trigger">
+                                                                                                                            <li class="dash-item dash-hasmenu ">
                                                 <a class="dash-link" href="#">Reports<span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                                                <ul class="dash-submenu" style="display: block;">
+                                                <ul class="dash-submenu" style="display: none;">
                                                                                                             <li class="dash-item ">
                                                             <a class="dash-link" href="account-statement-report.html">Account Statement</a>
                                                         </li>
                                                                                                                                                                 <li class="dash-item ">
                                                             <a class="dash-link" href="invoice-summary.html">Invoice Summary</a>
                                                         </li>
-                                                                                                                                                                <li class="dash-item active">
+                                                                                                                                                                <li class="dash-item ">
                                                             <a class="dash-link" href="bill-summary.html">Bill Summary</a>
                                                         </li>
                                                                                                                                                                 <li class="dash-item ">
@@ -876,7 +877,7 @@
                                         <a class="dash-link" href="#">POS<span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
                                         <ul class="dash-submenu" style="display: none;">
                                             <li class="dash-item ">
-                                                <a class="dash-link" href="pos-dashboard"> Overview</a>
+                                                <a class="dash-link" href="pos-dashboard.html"> Overview</a>
                                             </li>
                                             <li class="dash-item dash-hasmenu " href="#crm-report" data-toggle="collapse" role="button" aria-expanded="false">
                                                 <a class="dash-link" href="#">Reports<span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
@@ -902,7 +903,7 @@
 
                 <!--------------------- Start HRM ----------------------------------->
 
-                                                            <li class="dash-item dash-hasmenu ">
+                                                            <li class="dash-item dash-hasmenu active dash-trigger">
                             <a href="#!" class="dash-link ">
                                 <span class="dash-micon">
                                     <i class="ti ti-user"></i>
@@ -914,9 +915,9 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
                                 </span>
                             </a>
-                            <ul class="dash-submenu" style="display: none;">
+                            <ul class="dash-submenu" style="display: block;">
                                 <li class="dash-item     ">
-                                                                            <a href="  employee.html" class="dash-link">
+                                                                            <a href="employee.html" class="dash-link">
                                             Employee Setup
                                         </a>
                                                                     </li>
@@ -946,20 +947,20 @@
                                                             <a class="dash-link" href="attendanceemployee.html">Mark Attendance</a>
                                                         </li>
                                                                                                                     <li class="dash-item ">
-                                                                <a class="dash-link" href="attendanceemployee.html/bulkattendance">Bulk Attendance</a>
+                                                                <a class="dash-link" href="bulkattendance.html">Bulk Attendance</a>
                                                             </li>
                                                                                                             </ul>
                                                 </li>
                                                                                     </ul>
                                     </li>
                                 
-                                                                    <li class="dash-item dash-hasmenu " href="#navbar-performance" data-toggle="collapse" role="button" aria-expanded="false">
+                                                                    <li class="dash-item dash-hasmenu active dash-trigger" href="#navbar-performance" data-toggle="collapse" role="button" aria-expanded="true">
                                         <a class="dash-link" href="#">Performance Setup<span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                                        <ul class="dash-submenu collapse" style="display: none;">
+                                        <ul class="dash-submenu show" style="display: block;">
                                                                                             <li class="dash-item ">
                                                     <a class="dash-link" href="indicator.html">Indicator</a>
                                                 </li>
-                                                                                                                                        <li class="dash-item ">
+                                                                                                                                        <li class="dash-item active">
                                                     <a class="dash-link" href="appraisal.html">Appraisal</a>
                                                 </li>
                                                                                                                                         <li class="dash-item  ">
@@ -991,14 +992,13 @@
                                                     <a class="dash-link" href="create.html">Job Create</a>
                                                 </li>
                                                                                                                                         <li class="dash-item ">
-                                                    <a class="dash-link" href="job-application.
-                                                    html">Job Application</a>
+                                                    <a class="dash-link" href="job-application.html">Job Application</a>
                                                 </li>
                                                                                                                                         <li class="dash-item ">
                                                     <a class="dash-link" href="candidates-job-applications.html">Job Candidate</a>
                                                 </li>
                                                                                                                                         <li class="dash-item ">
-                                                   <a class="dash-link" href="job-onboard.html
+                                                    <a class="dash-link" href="job-onboard.html
                                                     ">Job On-boarding</a>
                                                 </li>
                                                                                                                                         <li class="dash-item  ">
@@ -1032,11 +1032,12 @@
                                                     <a class="dash-link" href="promotion.html">Promotion</a>
                                                 </li>
                                                                                                                                         <li class="dash-item ">
-                                                    <a class="dash-link" href="complaint.html">Complaints</a>
+                                                     <a class="dash-link" href="complaint.html">Complaints</a>
                                                 </li>
                                                                                                                                         <li class="dash-item ">
-                                                    <a class="dash-link" href="warning.html">Warning</a>
+                                                   <a class="dash-link" href="warning.html">Warning</a>
                                                 </li>
+                                                                                                                                        <li class="dash-item ">
                                                         <a class="dash-link" href="termination.html">Termination</a>
                                                 </li>
                                                                                                                                         <li class="dash-item ">
@@ -1049,7 +1050,7 @@
                                     </li>
                                 
                                                                     <li class="dash-item ">
-                                        <a class="dash-link" href="event.html">Event Setup</a>
+                                          <a class="dash-link" href="event.html">Event Setup</a>
                                     </li>
                                                                                                     <li class="dash-item ">
                                         <a class="dash-link" href="meeting.html">Meeting</a>
@@ -1076,6 +1077,7 @@
 
             <!--------------------- Start Account ----------------------------------->
 
+                                             
                                                 <li class="dash-item dash-hasmenu
                                         ">
                         <a href="#!" class="dash-link"><span class="dash-micon"><i class="ti ti-box"></i></span><span class="dash-mtext">Accounting System 
@@ -1193,11 +1195,12 @@
 
                     </ul>
                 </li>
+            
             <!--------------------- End Admin Office ----------------------------------->
 
             <!--------------------- Start CRM ----------------------------------->
 
-                                         <li class="dash-item dash-hasmenu ">
+                                                <li class="dash-item dash-hasmenu ">
                         <a href="#!" class="dash-link"><span class="dash-micon"><i class="ti ti-layers-difference"></i></span><span class="dash-mtext">CRM System</span><span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
                         <ul class="dash-submenu " style="display: none;">
                                                             <li class="dash-item ">
@@ -1213,7 +1216,7 @@
                                     <a class="dash-link" href="contract.html">Contract</a>
                                 </li>
                                                                 <li class="dash-item  ">
-                            <a class="dash-link" href="pipelines.html  ">CRM System Setup</a>
+                            <a class="dash-link" href="pipelines.html">CRM System Setup</a>
 
                         </li>
                                 </ul>
@@ -1237,7 +1240,7 @@
                                 <a class="dash-link" href="timesheet-list.html">Timesheet</a>
                             </li>
                                                                             <li class="dash-item ">
-                                   <a class="dash-link" href="list1.html">Bug</a>
+                                <a class="dash-link" href="list1.html">Bug</a>
                             </li>
                                                                             <li class="dash-item ">
                                 <a class="dash-link" href="all.html">Task Calendar</a>
@@ -1269,7 +1272,6 @@
 
         <!--------------------- Start User Managaement System ----------------------------------->
 
-               
                     <li class="dash-item dash-hasmenu ">
 
                 <a href="#!" class="dash-link "><span class="dash-micon"><i class="ti ti-users"></i></span><span class="dash-mtext">User Management</span><span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
@@ -1290,11 +1292,11 @@
                     
                 </ul>
             </li>
-        
         <!--------------------- End User Managaement System----------------------------------->
 
 
         <!--------------------- Start Products System ----------------------------------->
+
                     <li class="dash-item dash-hasmenu">
                 <a href="#!" class="dash-link ">
                     <span class="dash-micon"><i class="ti ti-shopping-cart"></i></span><span class="dash-mtext">Products System</span><span class="dash-arrow">
@@ -1306,7 +1308,7 @@
                             </a>
                         </li>
                                                                 <li class="dash-item ">
-                            <a href="productstock.html" class="dash-link">Product Stock
+                            <a href="product-stock.html" class="dash-link">Product Stock
                             </a>
                         </li>
                     
@@ -1317,7 +1319,7 @@
 
 
         <!--------------------- Start POs System ----------------------------------->
-                                                    <li class="dash-item dash-hasmenu ">
+                                      <li class="dash-item dash-hasmenu ">
                     <a href="#!" class="dash-link"><span class="dash-micon"><i class="ti ti-layers-difference"></i></span><span class="dash-mtext">POS System</span><span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
                     <ul class="dash-submenu " style="display: none;">
                                                     <li class="dash-item ">
@@ -1346,7 +1348,8 @@
                 </li>
                             <!--------------------- End POs System ----------------------------------->
 
-                    <li class="dash-item dash-hasmenu ">
+               
+                    <li class="dash-item dash-hasmenu">
                 <a href="support.html" class="dash-link">
                     <span class="dash-micon"><i class="ti ti-headphones"></i></span><span class="dash-mtext">Support System</span>
                 </a>
@@ -1369,8 +1372,7 @@
             </li>
         
         <!--------------------- Start System Setup ----------------------------------->
-
-                                     <li class="dash-item dash-hasmenu  dash-trigger">
+              <li class="dash-item dash-hasmenu dash-trigger">
                     <a href="#!" class="dash-link">
                         <span class="dash-micon"><i class="ti ti-settings"></i></span><span class="dash-mtext">Settings</span>
                         <span class="dash-arrow">
@@ -1386,7 +1388,6 @@
                                             </ul>
                 </li>
                     
-
 
 
         <!--------------------- End System Setup ----------------------------------->

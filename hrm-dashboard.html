@@ -40,29 +40,29 @@
     <!-- Calendar-->
     <link rel="stylesheet" href="main.css">
 
-    <link rel="stylesheet" href="https://sudoerp.in/assets/css/plugins/style.css">
-    <link rel="stylesheet" href="https://sudoerp.in/assets/css/plugins/flatpickr.min.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="flatpickr.min.css">
 
-    <link rel="stylesheet" href="https://sudoerp.in/assets/css/plugins/animate.min.css">
+    <link rel="stylesheet" href="animate.min.css">
 
     <!-- font css -->
-    <link rel="stylesheet" href="https://sudoerp.in/assets/fonts/tabler-icons.min.css">
-    <link rel="stylesheet" href="https://sudoerp.in/assets/fonts/feather.css">
-    <link rel="stylesheet" href="https://sudoerp.in/assets/fonts/fontawesome.css">
-    <link rel="stylesheet" href="https://sudoerp.in/assets/fonts/material.css">
+    <link rel="stylesheet" href="tabler-icons.min.css">
+    <link rel="stylesheet" href="feather.css">
+    <link rel="stylesheet" href="fontawesome.css">
+    <link rel="stylesheet" href="material.css">
     <link href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" rel="stylesheet">
 
 
     <!--bootstrap switch-->
-    <link rel="stylesheet" href="https://sudoerp.in/assets/css/plugins/bootstrap-switch-button.min.css">
+    <link rel="stylesheet" href="bootstrap-switch-button.min.css">
 
     <!-- vendor css -->
     
-            <link rel="stylesheet" href="https://sudoerp.in/assets/css/style.css" id="main-style">
+            <link rel="stylesheet" href="style1.css" id="main-style">
     
 
-    <link rel="stylesheet" href="https://sudoerp.in/assets/css/customizer.css">
-    <link rel="stylesheet" href="https://sudoerp.in/css/custom.css">
+    <link rel="stylesheet" href="customizer.css">
+    <link rel="stylesheet" href="custom.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
     
     
@@ -84,285 +84,382 @@
     <div class="navbar-content ps ps--active-y">
                     <ul class="dash-navbar">
                 <!--------------------- Start Dashboard ----------------------------------->
-                                    <li class="dash-item dash-hasmenu active dash-trigger">
-                        <a href="#!" class="dash-link ">
-                            <span class="dash-micon">
-                                <i class="ti ti-home"></i>
-                            </span>
-                            <span class="dash-mtext">Dashboard</span>
-                            <span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                        <ul class="dash-submenu" style="display: block;">
-                                                            <li class="dash-item dash-hasmenu ">
-                                    <a class="dash-link" href="#">Accounting <span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
+                                   <li class="dash-item dash-hasmenu
+                                active dash-trigger">
+                            <a href="#!" class="dash-link ">
+                                <span class="dash-micon">
+                                    <i class="ti ti-home"></i>
+                                </span>
+                                <span class="dash-mtext">Dashboard</span>
+                                <span class="dash-arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
+                                </span>
+                            </a>
+                            <ul class="dash-submenu">
+                                                            
+                                <!-- CRM -->
+                                <!-- <li class="dash-item dash-hasmenu ">
+                                    <a class="dash-link" href="#">
+                                        CRM
+                                        <span class="dash-arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                                <polyline points="9 18 15 12 9 6"></polyline>
+                                            </svg>
+                                        </span>
+                                    </a>
                                     <ul class="dash-submenu" style="display: none;">
-                                                                                    <li class="dash-item ">
-                                                <a class="dash-link" href="dashboard.html"> Overview</a>
-                                            </li>
-                                                                                                                            <li class="dash-item dash-hasmenu ">
-                                                <a class="dash-link" href="#">Reports<span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                                                <ul class="dash-submenu" style="display: none;">
-                                                                                                            <li class="dash-item ">
-                                                            <a class="dash-link" href="account-statement-report.html">Account Statement</a>
-                                                        </li>
-                                                                                                                                                                <li class="dash-item ">
-                                                            <a class="dash-link" href="invoice-summary.html">Invoice Summary</a>
-                                                        </li>
-                                                                                                                                                                <li class="dash-item ">
-                                                            <a class="dash-link" href="bill-summary.html">Bill Summary</a>
-                                                        </li>
-                                                                                                                                                                <li class="dash-item ">
-                                                            <a href="product-stock-report.html" class="dash-link">Product Stock</a>
-                                                        </li>
-                                                    
-                                                                                                            <li class="dash-item ">
-                                                            <a class="dash-link" href="profit-loss-summary.html">Profit &amp; Loss</a>
-                                                        </li>
-                                                                                                                                                                <li class="dash-item ">
-                                                            <a class="dash-link" href="transaction.html">Transaction</a>
-                                                        </li>
-                                                                                                                                                                <li class="dash-item ">
-                                                            <a class="dash-link" href="income-summary.html">Income Summary</a>
-                                                        </li>
-                                                                                                                                                                <li class="dash-item ">
-                                                            <a class="dash-link" href="expense-summary.html">Expense Summary</a>
-                                                        </li>
-                                                                                                                                                                <li class="dash-item ">
-                                                            <a class="dash-link" href="income-vs-expense-summary.html">Income VS Expense</a>
-                                                        </li>
-                                                                                                                                                                <li class="dash-item ">
-                                                            <a class="dash-link" href="tax-summary.html">Tax Summary</a>
-                                                        </li>
-                                                                                                    </ul>
-                                            </li>
-                                                                            </ul>
-                                </li>
-                            
-                                                                                                <li class="dash-item dash-hasmenu active dash-trigger">
-                                        <a class="dash-link" href="#">HRM <span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                                        <ul class="dash-submenu" style="display: block;">
-                                            <li class="dash-item active">
-                                                <a class="dash-link" href="hrm-dashboard.html"> Overview</a>
-                                            </li>
-                                                                                            <li class="dash-item dash-hasmenu
-                                                                    " href="#hr-report" data-toggle="collapse" role="button" aria-expanded="false">
-                                                    <a class="dash-link" href="#">Reports<span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                                                    <ul class="dash-submenu" style="display: none;">
-                                                        <li class="dash-item ">
-                                                            <a class="dash-link" href="reports-payroll.html">Payroll</a>
-                                                        </li>
-                                                        <li class="dash-item ">
-                                                            <a class="dash-link" href="reports-leave.html">Leave</a>
-                                                        </li>
-                                                        <li class="dash-item ">
-                                                            <a class="dash-link" href="reports-monthly-attendance.html">Monthly Attendance</a>
-                                                        </li>
-                                                    </ul>
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="crm-dashboard.html">Overview</a>
+                                        </li>
+                                        <li class="dash-item dash-hasmenu " href="#crm-report" data-toggle="collapse" role="button" aria-expanded="false">
+                                            <a class="dash-link" href="#">
+                                                Reports
+                                                <span class="dash-arrow">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                            <ul class="dash-submenu" style="display: none;">
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="reports-lead.html">Lead</a>
                                                 </li>
-                                                                                    </ul>
-                                    </li>
-                                                            
-                                                                                                <li class="dash-item dash-hasmenu ">
-                                        <a class="dash-link" href="#">CRM<span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                                        <ul class="dash-submenu" style="display: none;">
-                                            <li class="dash-item ">
-                                                <a class="dash-link" href="crm-dashboard.html"> Overview</a>
-                                            </li>
-                                            <li class="dash-item dash-hasmenu " href="#crm-report" data-toggle="collapse" role="button" aria-expanded="false">
-                                                <a class="dash-link" href="#">Reports<span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                                                <ul class="dash-submenu" style="display: none;">
-                                                    <li class="dash-item ">
-                                                        <a class="dash-link" href="reports-lead.html">Lead</a>
-                                                    </li>
-                                                    <li class="dash-item ">
-                                                        <a class="dash-link" href="reports-deal.html">Deal</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                                            
-                                                                                                <li class="dash-item ">
-                                        <a class="dash-link" href="project-dashboard.html">Project </a>
-                                    </li>
-                                                            
-                                                                                                <li class="dash-item dash-hasmenu ">
-                                        <a class="dash-link" href="#">POS<span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                                        <ul class="dash-submenu" style="display: none;">
-                                            <li class="dash-item ">
-                                                <a class="dash-link" href="pos-dashboard.html"> Overview</a>
-                                            </li>
-                                            <li class="dash-item dash-hasmenu " href="#crm-report" data-toggle="collapse" role="button" aria-expanded="false">
-                                                <a class="dash-link" href="#">Reports<span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                                                <ul class="dash-submenu" style="display: none;">
-                                                    <li class="dash-item ">
-                                                        <a class="dash-link" href="reports-warehouse.html">Warehouse Report</a>
-                                                    </li>
-                                                    <li class="dash-item ">
-                                                        <a class="dash-link" href="reports-daily-purchase.html">Purchase Daily/Monthly Report</a>
-                                                    </li>
-                                                    <li class="dash-item ">
-                                                        <a class="dash-link" href="reports-daily-pos.html">POS Daily/Monthly Report</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                                            
-                        </ul>
-                    </li>
-                                <!--------------------- End Dashboard ----------------------------------->
-
-
-                <!--------------------- Start HRM ----------------------------------->
-
-                                                            <li class="dash-item dash-hasmenu ">
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="reports-deal.html">Deal</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li> -->
+                                <!-- POS -->
+                                <!-- <li class="dash-item dash-hasmenu ">
+                                    <a class="dash-link" href="#">
+                                        POS
+                                        <span class="dash-arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                                <polyline points="9 18 15 12 9 6"></polyline>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <ul class="dash-submenu" style="display: none;">
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="pos-dashboard.html">Overview</a>
+                                        </li>
+                                        <li class="dash-item dash-hasmenu " href="#crm-report" data-toggle="collapse" role="button" aria-expanded="false">
+                                            <a class="dash-link" href="#">
+                                                Reports
+                                                <span class="dash-arrow">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                            <ul class="dash-submenu" style="display: none;">
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="reports-warehouse.html">Warehouse Report</a>
+                                                </li>
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="reports-daily-purchase.html">Purchase Daily/Monthly Report</a>
+                                                </li>
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="reports-daily-pos.html">POS Daily/Monthly Report</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li> -->
+                                <!-- Accounting -->
+                                <!-- <li class="dash-item dash-hasmenu  active dash-trigger">
+                                    <a class="dash-link" href="#">
+                                        Accounting 
+                                        <span class="dash-arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                                <polyline points="9 18 15 12 9 6"></polyline>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <ul class="dash-submenu">
+                                        <li class="dash-item  active">
+                                            <a class="dash-link" href="dashboard.html">Overview</a>
+                                        </li>
+                                        <li class="dash-item dash-hasmenu ">
+                                            <a class="dash-link" href="#">
+                                                Reports
+                                                <span class="dash-arrow">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                            <ul class="dash-submenu" style="display: none;">
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="account-statement-report.html">Account Statement</a>
+                                                </li>
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="invoice-summary.html">Invoice Summary</a>
+                                                </li>
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="bill-summary.html">Bill Summary</a>
+                                                </li>
+                                                <li class="dash-item ">
+                                                    <a href="product-stock-report.html" class="dash-link">Product Stock</a>
+                                                </li>
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="profit-loss-summary.html">Profit &amp;Loss</a>
+                                                </li>
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="transaction.html">Transaction</a>
+                                                </li>
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="income-summary.html">Income Summary</a>
+                                                </li>
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="expense-summary.html">Expense Summary</a>
+                                                </li>
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="income-vs-expense-summary.html">Income VS Expense</a>
+                                                </li>
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="tax-summary.html">Tax Summary</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>  -->
+                                <li class="dash-item dash-hasmenu ">
+                                    <a class="dash-link" href="#">
+                                        HRM 
+                                        <span class="dash-arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                                <polyline points="9 18 15 12 9 6"></polyline>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <ul class="dash-submenu" style="display: none;">
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="hrm-dashboard.html">Overview</a>
+                                        </li>
+                                        <li class="dash-item dash-hasmenu
+                                                                    " href="#hr-report" data-toggle="collapse" role="button" aria-expanded="false">
+                                            <a class="dash-link" href="#">
+                                                Reports
+                                                <span class="dash-arrow">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                            <ul class="dash-submenu" style="display: none;">
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="reports-payroll.html">Payroll</a>
+                                                </li>
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="reports-leave.html">Leave</a>
+                                                </li>
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="reports-monthly-attendance.html">Monthly Attendance</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dash-item ">
+                                    <a class="dash-link" href="project-dashboard.html">Project </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!--------------------- End Dashboard ----------------------------------->
+                        <!--------------------- Start HRM ----------------------------------->
+                        <li class="dash-item dash-hasmenu ">
                             <a href="#!" class="dash-link ">
                                 <span class="dash-micon">
                                     <i class="ti ti-user"></i>
                                 </span>
-                                <span class="dash-mtext">
-                                    HRM System
+                                <span class="dash-mtext">HRM System
                                 </span>
                                 <span class="dash-arrow">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
                                 </span>
                             </a>
                             <ul class="dash-submenu" style="display: none;">
                                 <li class="dash-item     ">
-                                                                            <a href="employee.html" class="dash-link">
-                                            Employee Setup
+                                    <a href="employee.html" class="dash-link">Employee Setup
                                         </a>
-                                                                    </li>
-
-                                                                    <li class="dash-item dash-hasmenu  ">
-                                        <a class="dash-link" href="#">Payroll Setup<span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                                        <ul class="dash-submenu" style="display: none;">
-                                                                                            <li class="dash-item ">
-                                                    <a class="dash-link" href="setsalary.html">Set salary</a>
+                                </li>
+                                <li class="dash-item dash-hasmenu  ">
+                                    <a class="dash-link" href="#">
+                                        Payroll Setup
+                                        <span class="dash-arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                                <polyline points="9 18 15 12 9 6"></polyline>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <ul class="dash-submenu" style="display: none;">
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="setsalary.html">Set salary</a>
+                                        </li>
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="payslip.html">Payslip</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dash-item dash-hasmenu  ">
+                                    <a class="dash-link" href="#">
+                                        Leave Management Setup
+                                        <span class="dash-arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                                <polyline points="9 18 15 12 9 6"></polyline>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <ul class="dash-submenu" style="display: none;">
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="leave.html">Manage Leave</a>
+                                        </li>
+                                        <li class="dash-item dash-hasmenu " href="#navbar-attendance" data-toggle="collapse" role="button" aria-expanded="false">
+                                            <a class="dash-link" href="#">
+                                                Attendance
+                                                <span class="dash-arrow">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                            <ul class="dash-submenu" style="display: none;">
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="attendanceemployee.html">Mark Attendance</a>
                                                 </li>
-                                                                                                                                        <li class="dash-item ">
-                                                    <a class="dash-link" href="payslip.html">Payslip</a>
+                                                <li class="dash-item ">
+                                                    <a class="dash-link" href="bulkattendance.html">Bulk Attendance</a>
                                                 </li>
-                                                                                    </ul>
-                                    </li>
-                                
-                                                                    <li class="dash-item dash-hasmenu  ">
-                                        <a class="dash-link" href="#">Leave Management Setup<span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                                        <ul class="dash-submenu" style="display: none;">
-                                                                                            <li class="dash-item ">
-                                                    <a class="dash-link" href="leave.html">Manage Leave</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item dash-hasmenu " href="#navbar-attendance" data-toggle="collapse" role="button" aria-expanded="false">
-                                                    <a class="dash-link" href="#">Attendance<span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                                                    <ul class="dash-submenu" style="display: none;">
-                                                        <li class="dash-item ">
-                                                            <a class="dash-link" href="attendanceemployee.html">Mark Attendance</a>
-                                                        </li>
-                                                                                                                    <li class="dash-item ">
-                                                                <a class="dash-link" href="attendanceemployee.html/bulkattendance">Bulk Attendance</a>
-                                                            </li>
-                                                                                                            </ul>
-                                                </li>
-                                                                                    </ul>
-                                    </li>
-                                
-                                                                    <li class="dash-item dash-hasmenu " href="#navbar-performance" data-toggle="collapse" role="button" aria-expanded="false">
-                                        <a class="dash-link" href="#">Performance Setup<span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                                        <ul class="dash-submenu collapse" style="display: none;">
-                                                                                            <li class="dash-item ">
-                                                    <a class="dash-link" href="indicator.html">Indicator</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item ">
-                                                    <a class="dash-link" href="appraisal.html">Appraisal</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item  ">
-                                                    <a class="dash-link" href="goaltracking.html">Goal Tracking</a>
-                                                </li>
-                                                                                    </ul>
-                                    </li>
-                                
-                                                                    <li class="dash-item dash-hasmenu " href="#navbar-training" data-toggle="collapse" role="button" aria-expanded="false">
-                                        <a class="dash-link" href="#">Training Setup<span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                                        <ul class="dash-submenu" style="display: none;">
-                                                                                            <li class="dash-item ">
-                                                    <a class="dash-link" href="training.html">Training List</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item ">
-                                                    <a class="dash-link" href="trainer.html">Trainer</a>
-                                                </li>
-                                            
-                                        </ul>
-                                    </li>
-                                
-                                                                    <li class="dash-item dash-hasmenu     ">
-                                        <a class="dash-link" href="#">Recruitment Setup<span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                                        <ul class="dash-submenu" style="display: none;">
-                                                                                            <li class="dash-item ">
-                                                    <a class="dash-link" href="job.html">Jobs</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item  ">
-                                                    <a class="dash-link" href="create.html">Job Create</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item ">
-                                                    <a class="dash-link" href="job-application.html">Job Application</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item ">
-                                                    <a class="dash-link" href="candidates-job-applications.html">Job Candidate</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item ">
-                                                   <a class="dash-link" href="job-onboard.html
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dash-item dash-hasmenu " href="#navbar-performance" data-toggle="collapse" role="button" aria-expanded="false">
+                                    <a class="dash-link" href="#">
+                                        Performance Setup
+                                        <span class="dash-arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                                <polyline points="9 18 15 12 9 6"></polyline>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <ul class="dash-submenu collapse" style="display: none;">
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="indicator.html">Indicator</a>
+                                        </li>
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="appraisal.html">Appraisal</a>
+                                        </li>
+                                        <li class="dash-item  ">
+                                            <a class="dash-link" href="goaltracking.html">Goal Tracking</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dash-item dash-hasmenu " href="#navbar-training" data-toggle="collapse" role="button" aria-expanded="false">
+                                    <a class="dash-link" href="#">
+                                        Training Setup
+                                        <span class="dash-arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                                <polyline points="9 18 15 12 9 6"></polyline>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <ul class="dash-submenu" style="display: none;">
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="training.html">Training List</a>
+                                        </li>
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="trainer.html">Trainer</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dash-item dash-hasmenu     ">
+                                    <a class="dash-link" href="#">
+                                        Recruitment Setup
+                                        <span class="dash-arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                                <polyline points="9 18 15 12 9 6"></polyline>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <ul class="dash-submenu" style="display: none;">
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="job.html">Jobs</a>
+                                        </li>
+                                        <li class="dash-item  ">
+                                            <a class="dash-link" href="create.html">Job Create</a>
+                                        </li>
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="job-application.html">Job Application</a>
+                                        </li>
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="candidates-job-applications.html">Job Candidate</a>
+                                        </li>
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="job-onboard.html
                                                     ">Job On-boarding</a>
                                                 </li>
-                                                                                                                                        <li class="dash-item  ">
-                                                    <a class="dash-link" href="custom-question.html">Custom Question</a>
+                                        <li class="dash-item  ">
+                                            <a class="dash-link" href="custom-question.html">Custom Question</a>
+                                        </li>
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="interview-schedule.html">Interview Schedule</a>
+                                        </li>
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="en.html">Career</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dash-item dash-hasmenu ">
+                                    <a class="dash-link" href="#">
+                                        HR Admin Setup
+                                        <span class="dash-arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                                                <polyline points="9 18 15 12 9 6"></polyline>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <ul class="dash-submenu" style="display: none;">
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="award.html">Award</a>
+                                        </li>
+                                        <li class="dash-item  ">
+                                            <a class="dash-link" href="transfer.html">Transfer</a>
+                                        </li>
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="resignation.html">Resignation</a>
+                                        </li>
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="travel.html">Trip</a>
+                                        </li>
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="promotion.html">Promotion</a>
+                                        </li>
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="complaint.html">Complaints</a>
+                                        </li>
+                                        <a class="dash-link" href="warning.html">Warning</a>
                                                 </li>
-                                                                                                                                        <li class="dash-item ">
-                                                    <a class="dash-link" href="interview-schedule.html">Interview Schedule</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item ">
-                                                    <a class="dash-link" href="en.html">Career</a>
-                                                </li>
-                                                                                    </ul>
-                                    </li>
-                                
-                                                                    <li class="dash-item dash-hasmenu ">
-                                        <a class="dash-link" href="#">HR Admin Setup<span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
-                                        <ul class="dash-submenu" style="display: none;">
-                                                                                            <li class="dash-item ">
-                                                    <a class="dash-link" href="award.html">Award</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item  ">
-                                                    <a class="dash-link" href="transfer.html">Transfer</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item ">
-                                                    <a class="dash-link" href="resignation.html">Resignation</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item ">
-                                                    <a class="dash-link" href="travel.html">Trip</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item ">
-                                                    <a class="dash-link" href="promotion.html">Promotion</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item ">
-                                                   <a class="dash-link" href="complaint.html">Complaints</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item ">
-                                                  <a class="dash-link" href="warning.html">Warning</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item ">
-                                                        <a class="dash-link" href="termination.html">Termination</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item ">
-                                                    <a class="dash-link" href="announcement.html">Announcement</a>
-                                                </li>
-                                                                                                                                        <li class="dash-item ">
-                                                    <a class="dash-link" href="holiday.html">Holidays</a>
-                                                </li>
-                                                                                    </ul>
-                                    </li>
-                                
-                                                                    <li class="dash-item ">
-                                         <a class="dash-link" href="event.html">Event Setup</a>
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="termination.html">Termination</a>
+                                        </li>
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="announcement.html">Announcement</a>
+                                        </li>
+                                        <li class="dash-item ">
+                                            <a class="dash-link" href="holiday.html">Holidays</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dash-item ">
+   <a class="dash-link" href="event.html">Event Setup</a>
                                     </li>
                                                                                                     <li class="dash-item ">
                                         <a class="dash-link" href="meeting.html">Meeting</a>
@@ -380,17 +477,12 @@
                                                                     <li class="dash-item ">
                                         <a class="dash-link" href="branch.html">HRM System Setup</a>
                                     </li>
-                                
-
-                        </ul>
-                    </li>
-                            
-            <!--------------------- End HRM ----------------------------------->
-
-            <!--------------------- Start Account ----------------------------------->
-
-                                              
-                                                <li class="dash-item dash-hasmenu
+                            </ul>
+                        </li>
+                        <!--------------------- End HRM ----------------------------------->
+                        <!--------------------- Start Account ----------------------------------->
+                     
+                                                <!-- <li class="dash-item dash-hasmenu
                                         ">
                         <a href="#!" class="dash-link"><span class="dash-micon"><i class="ti ti-box"></i></span><span class="dash-mtext">Accounting System 
                             </span><span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span>
@@ -479,7 +571,7 @@
                                 </li>
                             
                         </ul>
-                    </li>
+                    </li> -->
                             
             <!--------------------- End Account ----------------------------------->
 
@@ -507,11 +599,9 @@
 
                     </ul>
                 </li>
-            <!--------------------- End Admin Office ----------------------------------->
-
-            <!--------------------- Start CRM ----------------------------------->
-
-                                                 <li class="dash-item dash-hasmenu ">
+                        <!--------------------- End Admin Office ----------------------------------->
+                        <!--------------------- Start CRM ----------------------------------->
+                                  <!-- <li class="dash-item dash-hasmenu ">
                         <a href="#!" class="dash-link"><span class="dash-micon"><i class="ti ti-layers-difference"></i></span><span class="dash-mtext">CRM System</span><span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
                         <ul class="dash-submenu " style="display: none;">
                                                             <li class="dash-item ">
@@ -531,12 +621,11 @@
 
                         </li>
                                 </ul>
-            </li>
-                
-        <!--------------------- End CRM ----------------------------------->
-
-        <!--------------------- Start Project ----------------------------------->
-
+            </li> -->
+                        <!--------------------- End CRM ----------------------------------->
+                        <!--------------------- Start Project ----------------------------------->
+                      
+                                
                                     <li class="dash-item dash-hasmenu
                                             ">
                     <a href="#!" class="dash-link"><span class="dash-micon"><i class="ti ti-share"></i></span><span class="dash-mtext">Project System</span><span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
@@ -578,13 +667,9 @@
                 </li>
                     
                     
-        <!--------------------- End Project ----------------------------------->
-
-
-
-        <!--------------------- Start User Managaement System ----------------------------------->
-
-                 
+                        <!--------------------- End Project ----------------------------------->
+                        <!--------------------- Start User Managaement System ----------------------------------->
+                      
                     <li class="dash-item dash-hasmenu ">
 
                 <a href="#!" class="dash-link "><span class="dash-micon"><i class="ti ti-users"></i></span><span class="dash-mtext">User Management</span><span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
@@ -605,13 +690,9 @@
                     
                 </ul>
             </li>
-        
-        <!--------------------- End User Managaement System----------------------------------->
-
-
-        <!--------------------- Start Products System ----------------------------------->
-
-                                     <li class="dash-item dash-hasmenu">
+                        <!--------------------- End User Managaement System----------------------------------->
+                        <!--------------------- Start Products System ----------------------------------->
+                                          <li class="dash-item dash-hasmenu">
                 <a href="#!" class="dash-link ">
                     <span class="dash-micon"><i class="ti ti-shopping-cart"></i></span><span class="dash-mtext">Products System</span><span class="dash-arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span>
@@ -629,11 +710,9 @@
                 </ul>
             </li>
         
-        <!--------------------- End Products System ----------------------------------->
-
-
-        <!--------------------- Start POs System ----------------------------------->
-                                                   <li class="dash-item dash-hasmenu ">
+                        <!--------------------- End Products System ----------------------------------->
+                        <!--------------------- Start POs System ----------------------------------->
+                                        <!-- <li class="dash-item dash-hasmenu ">
                     <a href="#!" class="dash-link"><span class="dash-micon"><i class="ti ti-layers-difference"></i></span><span class="dash-mtext">POS System</span><span class="dash-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></span></a>
                     <ul class="dash-submenu " style="display: none;">
                                                     <li class="dash-item ">
@@ -659,9 +738,9 @@
                             </li>
                         
                     </ul>
-                </li>
-                            <!--------------------- End POs System ----------------------------------->
-
+                </li> -->
+                        <!--------------------- End POs System ----------------------------------->
+                       
                     <li class="dash-item dash-hasmenu ">
                 <a href="support.html" class="dash-link">
                     <span class="dash-micon"><i class="ti ti-headphones"></i></span><span class="dash-mtext">Support System</span>
@@ -684,10 +763,8 @@
                 </a>
             </li>
         
-        
-        <!--------------------- Start System Setup ----------------------------------->
-
-                                  <li class="dash-item dash-hasmenu  dash-trigger">
+                        <!--------------------- Start System Setup ----------------------------------->
+                                     <li class="dash-item dash-hasmenu dash-trigger">
                     <a href="#!" class="dash-link">
                         <span class="dash-micon"><i class="ti ti-settings"></i></span><span class="dash-mtext">Settings</span>
                         <span class="dash-arrow">
@@ -702,9 +779,6 @@
                                                     
                                             </ul>
                 </li>
-                    
-
-
 
         <!--------------------- End System Setup ----------------------------------->
         </ul>
@@ -745,7 +819,7 @@
                             <i class="ti ti-power text-dark"></i><span>Logout</span>
                         </a>
 
-                        <form id="frm-logout" action="https://sudoerp.in/logout" method="POST" class="d-none">
+                        <form id="frm-logout" action="logout.html" method="POST" class="d-none">
                             <input type="hidden" name="_token" value="whNhN857bYjX10i1dwqaorEh7Y0oE0nXsv9q0SLY">
                         </form>
 
@@ -757,7 +831,7 @@
         <div class="ms-auto">
             <ul class="list-unstyled">
                                     <li class="dropdown dash-h-item drp-notification">
-                        <a class="dash-head-link arrow-none me-0" href="https://sudoerp.in/chats" aria-haspopup="false" aria-expanded="false">
+                        <a class="dash-head-link arrow-none me-0" href="chats.html" aria-haspopup="false" aria-expanded="false">
                             <i class="ti ti-brand-hipchat"></i>
                             <span class="bg-danger dash-h-badge message-toggle-msg  message-counter custom_messanger_counter beep"> 0<span class="sr-only"></span>
                             </span>
@@ -993,7 +1067,7 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <div id="calendar" class="calendar local_calender fc fc-media-screen fc-direction-ltr fc-theme-bootstrap"><div class="fc-header-toolbar fc-toolbar fc-toolbar-ltr"><div class="fc-toolbar-chunk"><div class="btn-group"><button type="button" title="Previous month" aria-pressed="false" class="fc-prev-button btn btn-primary"><span class="fa fa-chevron-left"></span></button><button type="button" title="Next month" aria-pressed="false" class="fc-next-button btn btn-primary"><span class="fa fa-chevron-right"></span></button></div><button type="button" title="This month" disabled="" aria-pressed="false" class="fc-today-button btn btn-primary">today</button></div><div class="fc-toolbar-chunk"><h2 class="fc-toolbar-title" id="fc-dom-1">June 2025</h2></div><div class="fc-toolbar-chunk"><div class="btn-group"><button type="button" title="Day view" aria-pressed="false" class="fc-timeGridDay-button btn btn-primary">Day</button><button type="button" title="Week view" aria-pressed="false" class="fc-timeGridWeek-button btn btn-primary">Week</button><button type="button" title="Month view" aria-pressed="true" class="fc-dayGridMonth-button btn btn-primary active">Month</button></div></div></div><div aria-labelledby="fc-dom-1" class="fc-view-harness fc-view-harness-passive"><div class="fc-daygrid fc-dayGridMonth-view fc-view"><table role="grid" class="fc-scrollgrid table-bordered"><thead role="rowgroup"><tr role="presentation" class="fc-scrollgrid-section fc-scrollgrid-section-header  fc-scrollgrid-section-sticky"><th role="presentation"><div class="fc-scroller-harness"><div class="fc-scroller" style="overflow: visible;"><table role="presentation" class="fc-col-header " style="width: 85px;"><colgroup></colgroup><thead role="presentation"><tr role="row"><th role="columnheader" class="fc-col-header-cell fc-day fc-day-sun"><div class="fc-scrollgrid-sync-inner"><a aria-label="Sunday" class="fc-col-header-cell-cushion ">Sun</a></div></th><th role="columnheader" class="fc-col-header-cell fc-day fc-day-mon"><div class="fc-scrollgrid-sync-inner"><a aria-label="Monday" class="fc-col-header-cell-cushion ">Mon</a></div></th><th role="columnheader" class="fc-col-header-cell fc-day fc-day-tue"><div class="fc-scrollgrid-sync-inner"><a aria-label="Tuesday" class="fc-col-header-cell-cushion ">Tue</a></div></th><th role="columnheader" class="fc-col-header-cell fc-day fc-day-wed"><div class="fc-scrollgrid-sync-inner"><a aria-label="Wednesday" class="fc-col-header-cell-cushion ">Wed</a></div></th><th role="columnheader" class="fc-col-header-cell fc-day fc-day-thu"><div class="fc-scrollgrid-sync-inner"><a aria-label="Thursday" class="fc-col-header-cell-cushion ">Thu</a></div></th><th role="columnheader" class="fc-col-header-cell fc-day fc-day-fri"><div class="fc-scrollgrid-sync-inner"><a aria-label="Friday" class="fc-col-header-cell-cushion ">Fri</a></div></th><th role="columnheader" class="fc-col-header-cell fc-day fc-day-sat"><div class="fc-scrollgrid-sync-inner"><a aria-label="Saturday" class="fc-col-header-cell-cushion ">Sat</a></div></th></tr></thead></table></div></div></th></tr></thead><tbody role="rowgroup"><tr role="presentation" class="fc-scrollgrid-section fc-scrollgrid-section-body "><td role="presentation"><div class="fc-scroller-harness"><div class="fc-scroller" style="overflow: visible;"><div class="fc-daygrid-body fc-daygrid-body-unbalanced fc-daygrid-body-natural" style="width: 85px;"><table role="presentation" class="fc-scrollgrid-sync-table" style="width: 85px;"><colgroup></colgroup><tbody role="presentation"><tr role="row"><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sun fc-day-past" data-date="2025-06-01" aria-labelledby="fc-dom-2"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-2" class="fc-daygrid-day-number" title="Go to June 1, 2025" data-navlink="" tabindex="0">1</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-mon fc-day-past" data-date="2025-06-02" aria-labelledby="fc-dom-4"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-4" class="fc-daygrid-day-number" title="Go to June 2, 2025" data-navlink="" tabindex="0">2</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-tue fc-day-past" data-date="2025-06-03" aria-labelledby="fc-dom-6"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-6" class="fc-daygrid-day-number" title="Go to June 3, 2025" data-navlink="" tabindex="0">3</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-wed fc-day-past" data-date="2025-06-04" aria-labelledby="fc-dom-8"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-8" class="fc-daygrid-day-number" title="Go to June 4, 2025" data-navlink="" tabindex="0">4</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-thu fc-day-past" data-date="2025-06-05" aria-labelledby="fc-dom-10"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-10" class="fc-daygrid-day-number" title="Go to June 5, 2025" data-navlink="" tabindex="0">5</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-fri fc-day-past" data-date="2025-06-06" aria-labelledby="fc-dom-12"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-12" class="fc-daygrid-day-number" title="Go to June 6, 2025" data-navlink="" tabindex="0">6</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sat fc-day-past" data-date="2025-06-07" aria-labelledby="fc-dom-14"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-14" class="fc-daygrid-day-number" title="Go to June 7, 2025" data-navlink="" tabindex="0">7</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td></tr><tr role="row"><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sun fc-day-past" data-date="2025-06-08" aria-labelledby="fc-dom-16"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-16" class="fc-daygrid-day-number" title="Go to June 8, 2025" data-navlink="" tabindex="0">8</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-mon fc-day-past" data-date="2025-06-09" aria-labelledby="fc-dom-18"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-18" class="fc-daygrid-day-number" title="Go to June 9, 2025" data-navlink="" tabindex="0">9</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-tue fc-day-past" data-date="2025-06-10" aria-labelledby="fc-dom-20"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-20" class="fc-daygrid-day-number" title="Go to June 10, 2025" data-navlink="" tabindex="0">10</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-wed fc-day-past" data-date="2025-06-11" aria-labelledby="fc-dom-22"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-22" class="fc-daygrid-day-number" title="Go to June 11, 2025" data-navlink="" tabindex="0">11</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-thu fc-day-past" data-date="2025-06-12" aria-labelledby="fc-dom-24"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-24" class="fc-daygrid-day-number" title="Go to June 12, 2025" data-navlink="" tabindex="0">12</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-fri fc-day-past" data-date="2025-06-13" aria-labelledby="fc-dom-26"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-26" class="fc-daygrid-day-number" title="Go to June 13, 2025" data-navlink="" tabindex="0">13</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sat fc-day-past" data-date="2025-06-14" aria-labelledby="fc-dom-28"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-28" class="fc-daygrid-day-number" title="Go to June 14, 2025" data-navlink="" tabindex="0">14</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td></tr><tr role="row"><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sun fc-day-past" data-date="2025-06-15" aria-labelledby="fc-dom-30"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-30" class="fc-daygrid-day-number" title="Go to June 15, 2025" data-navlink="" tabindex="0">15</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-mon fc-day-past" data-date="2025-06-16" aria-labelledby="fc-dom-32"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-32" class="fc-daygrid-day-number" title="Go to June 16, 2025" data-navlink="" tabindex="0">16</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-tue fc-day-past" data-date="2025-06-17" aria-labelledby="fc-dom-34"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-34" class="fc-daygrid-day-number" title="Go to June 17, 2025" data-navlink="" tabindex="0">17</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-wed fc-day-past" data-date="2025-06-18" aria-labelledby="fc-dom-36"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-36" class="fc-daygrid-day-number" title="Go to June 18, 2025" data-navlink="" tabindex="0">18</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-thu fc-day-past" data-date="2025-06-19" aria-labelledby="fc-dom-38"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-38" class="fc-daygrid-day-number" title="Go to June 19, 2025" data-navlink="" tabindex="0">19</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-fri fc-day-past" data-date="2025-06-20" aria-labelledby="fc-dom-40"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-40" class="fc-daygrid-day-number" title="Go to June 20, 2025" data-navlink="" tabindex="0">20</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sat fc-day-past" data-date="2025-06-21" aria-labelledby="fc-dom-42"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-42" class="fc-daygrid-day-number" title="Go to June 21, 2025" data-navlink="" tabindex="0">21</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td></tr><tr role="row"><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sun fc-day-past" data-date="2025-06-22" aria-labelledby="fc-dom-44"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-44" class="fc-daygrid-day-number" title="Go to June 22, 2025" data-navlink="" tabindex="0">22</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-mon fc-day-past" data-date="2025-06-23" aria-labelledby="fc-dom-46"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-46" class="fc-daygrid-day-number" title="Go to June 23, 2025" data-navlink="" tabindex="0">23</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-tue fc-day-past" data-date="2025-06-24" aria-labelledby="fc-dom-48"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-48" class="fc-daygrid-day-number" title="Go to June 24, 2025" data-navlink="" tabindex="0">24</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-wed fc-day-past" data-date="2025-06-25" aria-labelledby="fc-dom-50"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-50" class="fc-daygrid-day-number" title="Go to June 25, 2025" data-navlink="" tabindex="0">25</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-thu fc-day-past" data-date="2025-06-26" aria-labelledby="fc-dom-52"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-52" class="fc-daygrid-day-number" title="Go to June 26, 2025" data-navlink="" tabindex="0">26</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-fri fc-day-today " data-date="2025-06-27" aria-labelledby="fc-dom-54"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-54" class="fc-daygrid-day-number" title="Go to June 27, 2025" data-navlink="" tabindex="0">27</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sat fc-day-future" data-date="2025-06-28" aria-labelledby="fc-dom-56"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-56" class="fc-daygrid-day-number" title="Go to June 28, 2025" data-navlink="" tabindex="0">28</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td></tr><tr role="row"><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sun fc-day-future" data-date="2025-06-29" aria-labelledby="fc-dom-58"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-58" class="fc-daygrid-day-number" title="Go to June 29, 2025" data-navlink="" tabindex="0">29</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-mon fc-day-future" data-date="2025-06-30" aria-labelledby="fc-dom-60"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-60" class="fc-daygrid-day-number" title="Go to June 30, 2025" data-navlink="" tabindex="0">30</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-tue fc-day-future fc-day-other" data-date="2025-07-01" aria-labelledby="fc-dom-62"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-62" class="fc-daygrid-day-number" title="Go to July 1, 2025" data-navlink="" tabindex="0">1</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-wed fc-day-future fc-day-other" data-date="2025-07-02" aria-labelledby="fc-dom-64"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-64" class="fc-daygrid-day-number" title="Go to July 2, 2025" data-navlink="" tabindex="0">2</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-thu fc-day-future fc-day-other" data-date="2025-07-03" aria-labelledby="fc-dom-66"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-66" class="fc-daygrid-day-number" title="Go to July 3, 2025" data-navlink="" tabindex="0">3</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-fri fc-day-future fc-day-other" data-date="2025-07-04" aria-labelledby="fc-dom-68"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-68" class="fc-daygrid-day-number" title="Go to July 4, 2025" data-navlink="" tabindex="0">4</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sat fc-day-future fc-day-other" data-date="2025-07-05" aria-labelledby="fc-dom-70"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-70" class="fc-daygrid-day-number" title="Go to July 5, 2025" data-navlink="" tabindex="0">5</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td></tr><tr role="row"><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sun fc-day-future fc-day-other" data-date="2025-07-06" aria-labelledby="fc-dom-72"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-72" class="fc-daygrid-day-number" title="Go to July 6, 2025" data-navlink="" tabindex="0">6</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-mon fc-day-future fc-day-other" data-date="2025-07-07" aria-labelledby="fc-dom-74"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-74" class="fc-daygrid-day-number" title="Go to July 7, 2025" data-navlink="" tabindex="0">7</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-tue fc-day-future fc-day-other" data-date="2025-07-08" aria-labelledby="fc-dom-76"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-76" class="fc-daygrid-day-number" title="Go to July 8, 2025" data-navlink="" tabindex="0">8</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-wed fc-day-future fc-day-other" data-date="2025-07-09" aria-labelledby="fc-dom-78"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-78" class="fc-daygrid-day-number" title="Go to July 9, 2025" data-navlink="" tabindex="0">9</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-thu fc-day-future fc-day-other" data-date="2025-07-10" aria-labelledby="fc-dom-80"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-80" class="fc-daygrid-day-number" title="Go to July 10, 2025" data-navlink="" tabindex="0">10</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-fri fc-day-future fc-day-other" data-date="2025-07-11" aria-labelledby="fc-dom-82"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-82" class="fc-daygrid-day-number" title="Go to July 11, 2025" data-navlink="" tabindex="0">11</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sat fc-day-future fc-day-other" data-date="2025-07-12" aria-labelledby="fc-dom-84"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-84" class="fc-daygrid-day-number" title="Go to July 12, 2025" data-navlink="" tabindex="0">12</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td></tr></tbody></table></div></div></div></td></tr></tbody></table></div></div></div>
+                                <div id="calendar" class="calendar local_calender fc fc-media-screen fc-direction-ltr fc-theme-bootstrap"><div class="fc-header-toolbar fc-toolbar fc-toolbar-ltr"><div class="fc-toolbar-chunk"><div class="btn-group"><button type="button" title="Previous month" aria-pressed="false" class="fc-prev-button btn btn-primary"><span class="fa fa-chevron-left"></span></button><button type="button" title="Next month" aria-pressed="false" class="fc-next-button btn btn-primary"><span class="fa fa-chevron-right"></span></button></div><button type="button" title="This month" disabled="" aria-pressed="false" class="fc-today-button btn btn-primary">today</button></div><div class="fc-toolbar-chunk"><h2 class="fc-toolbar-title" id="fc-dom-1">June 2025</h2></div><div class="fc-toolbar-chunk"><div class="btn-group"><button type="button" title="Day view" aria-pressed="false" class="fc-timeGridDay-button btn btn-primary">Day</button><button type="button" title="Week view" aria-pressed="false" class="fc-timeGridWeek-button btn btn-primary">Week</button><button type="button" title="Month view" aria-pressed="true" class="fc-dayGridMonth-button btn btn-primary active">Month</button></div></div></div><div aria-labelledby="fc-dom-1" class="fc-view-harness fc-view-harness-passive"><div class="fc-daygrid fc-dayGridMonth-view fc-view"><table role="grid" class="fc-scrollgrid table-bordered"><thead role="rowgroup"><tr role="presentation" class="fc-scrollgrid-section fc-scrollgrid-section-header  fc-scrollgrid-section-sticky"><th role="presentation"><div class="fc-scroller-harness"><div class="fc-scroller" style="overflow: visible;"><table role="presentation" class="fc-col-header " style="width: 85px;"><colgroup></colgroup><thead role="presentation"><tr role="row"><th role="columnheader" class="fc-col-header-cell fc-day fc-day-sun"><div class="fc-scrollgrid-sync-inner"><a aria-label="Sunday" class="fc-col-header-cell-cushion ">Sun</a></div></th><th role="columnheader" class="fc-col-header-cell fc-day fc-day-mon"><div class="fc-scrollgrid-sync-inner"><a aria-label="Monday" class="fc-col-header-cell-cushion ">Mon</a></div></th><th role="columnheader" class="fc-col-header-cell fc-day fc-day-tue"><div class="fc-scrollgrid-sync-inner"><a aria-label="Tuesday" class="fc-col-header-cell-cushion ">Tue</a></div></th><th role="columnheader" class="fc-col-header-cell fc-day fc-day-wed"><div class="fc-scrollgrid-sync-inner"><a aria-label="Wednesday" class="fc-col-header-cell-cushion ">Wed</a></div></th><th role="columnheader" class="fc-col-header-cell fc-day fc-day-thu"><div class="fc-scrollgrid-sync-inner"><a aria-label="Thursday" class="fc-col-header-cell-cushion ">Thu</a></div></th><th role="columnheader" class="fc-col-header-cell fc-day fc-day-fri"><div class="fc-scrollgrid-sync-inner"><a aria-label="Friday" class="fc-col-header-cell-cushion ">Fri</a></div></th><th role="columnheader" class="fc-col-header-cell fc-day fc-day-sat"><div class="fc-scrollgrid-sync-inner"><a aria-label="Saturday" class="fc-col-header-cell-cushion ">Sat</a></div></th></tr></thead></table></div></div></th></tr></thead><tbody role="rowgroup"><tr role="presentation" class="fc-scrollgrid-section fc-scrollgrid-section-body "><td role="presentation"><div class="fc-scroller-harness"><div class="fc-scroller" style="overflow: visible;"><div class="fc-daygrid-body fc-daygrid-body-unbalanced fc-daygrid-body-natural" style="width: 85px;"><table role="presentation" class="fc-scrollgrid-sync-table" style="width: 85px;"><colgroup></colgroup><tbody role="presentation"><tr role="row"><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sun fc-day-past" data-date="2025-06-01" aria-labelledby="fc-dom-2"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-2" class="fc-daygrid-day-number" title="Go to June 1, 2025" data-navlink="" tabindex="0">1</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-mon fc-day-past" data-date="2025-06-02" aria-labelledby="fc-dom-4"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-4" class="fc-daygrid-day-number" title="Go to June 2, 2025" data-navlink="" tabindex="0">2</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-tue fc-day-past" data-date="2025-06-03" aria-labelledby="fc-dom-6"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-6" class="fc-daygrid-day-number" title="Go to June 3, 2025" data-navlink="" tabindex="0">3</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-wed fc-day-past" data-date="2025-06-04" aria-labelledby="fc-dom-8"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-8" class="fc-daygrid-day-number" title="Go to June 4, 2025" data-navlink="" tabindex="0">4</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-thu fc-day-past" data-date="2025-06-05" aria-labelledby="fc-dom-10"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-10" class="fc-daygrid-day-number" title="Go to June 5, 2025" data-navlink="" tabindex="0">5</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-fri fc-day-past" data-date="2025-06-06" aria-labelledby="fc-dom-12"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-12" class="fc-daygrid-day-number" title="Go to June 6, 2025" data-navlink="" tabindex="0">6</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sat fc-day-past" data-date="2025-06-07" aria-labelledby="fc-dom-14"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-14" class="fc-daygrid-day-number" title="Go to June 7, 2025" data-navlink="" tabindex="0">7</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td></tr><tr role="row"><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sun fc-day-past" data-date="2025-06-08" aria-labelledby="fc-dom-16"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-16" class="fc-daygrid-day-number" title="Go to June 8, 2025" data-navlink="" tabindex="0">8</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-mon fc-day-past" data-date="2025-06-09" aria-labelledby="fc-dom-18"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-18" class="fc-daygrid-day-number" title="Go to June 9, 2025" data-navlink="" tabindex="0">9</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-tue fc-day-past" data-date="2025-06-10" aria-labelledby="fc-dom-20"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-20" class="fc-daygrid-day-number" title="Go to June 10, 2025" data-navlink="" tabindex="0">10</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-wed fc-day-past" data-date="2025-06-11" aria-labelledby="fc-dom-22"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-22" class="fc-daygrid-day-number" title="Go to June 11, 2025" data-navlink="" tabindex="0">11</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-thu fc-day-past" data-date="2025-06-12" aria-labelledby="fc-dom-24"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-24" class="fc-daygrid-day-number" title="Go to June 12, 2025" data-navlink="" tabindex="0">12</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-fri fc-day-past" data-date="2025-06-13" aria-labelledby="fc-dom-26"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-26" class="fc-daygrid-day-number" title="Go to June 13, 2025" data-navlink="" tabindex="0">13</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sat fc-day-past" data-date="2025-06-14" aria-labelledby="fc-dom-28"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-28" class="fc-daygrid-day-number" title="Go to June 14, 2025" data-navlink="" tabindex="0">14</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td></tr><tr role="row"><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sun fc-day-past" data-date="2025-06-15" aria-labelledby="fc-dom-30"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-30" class="fc-daygrid-day-number" title="Go to June 15, 2025" data-navlink="" tabindex="0">15</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-mon fc-day-past" data-date="2025-06-16" aria-labelledby="fc-dom-32"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-32" class="fc-daygrid-day-number" title="Go to June 16, 2025" data-navlink="" tabindex="0">16</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-tue fc-day-past" data-date="2025-06-17" aria-labelledby="fc-dom-34"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-34" class="fc-daygrid-day-number" title="Go to June 17, 2025" data-navlink="" tabindex="0">17</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-wed fc-day-past" data-date="2025-06-18" aria-labelledby="fc-dom-36"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-36" class="fc-daygrid-day-number" title="Go to June 18, 2025" data-navlink="" tabindex="0">18</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-thu fc-day-past" data-date="2025-06-19" aria-labelledby="fc-dom-38"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-38" class="fc-daygrid-day-number" title="Go to June 19, 2025" data-navlink="" tabindex="0">19</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-fri fc-day-past" data-date="2025-06-20" aria-labelledby="fc-dom-40"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-40" class="fc-daygrid-day-number" title="Go to June 20, 2025" data-navlink="" tabindex="0">20</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sat fc-day-past" data-date="2025-06-21" aria-labelledby="fc-dom-42"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-42" class="fc-daygrid-day-number" title="Go to June 21, 2025" data-navlink="" tabindex="0">21</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td></tr><tr role="row"><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sun fc-day-past" data-date="2025-06-22" aria-labelledby="fc-dom-44"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-44" class="fc-daygrid-day-number" title="Go to June 22, 2025" data-navlink="" tabindex="0">22</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-mon fc-day-past" data-date="2025-06-23" aria-labelledby="fc-dom-46"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-46" class="fc-daygrid-day-number" title="Go to June 23, 2025" data-navlink="" tabindex="0">23</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-tue fc-day-past" data-date="2025-06-24" aria-labelledby="fc-dom-48"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-48" class="fc-daygrid-day-number" title="Go to June 24, 2025" data-navlink="" tabindex="0">24</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-wed fc-day-past" data-date="2025-06-25" aria-labelledby="fc-dom-50"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-50" class="fc-daygrid-day-number" title="Go to June 25, 2025" data-navlink="" tabindex="0">25</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-thu fc-day-past" data-date="2025-06-26" aria-labelledby="fc-dom-52"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-52" class="fc-daygrid-day-number" title="Go to June 26, 2025" data-navlink="" tabindex="0">26</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-fri fc-day-today " data-date="2025-06-27" aria-labelledby="fc-dom-54"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-54" class="fc-daygrid-day-number" title="Go to June 27, 2025" data-navlink="" tabindex="0">27</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sat fc-day-future" data-date="2025-06-28" aria-labelledby="fc-dom-56"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-56" class="fc-daygrid-day-number" title="Go to June 28, 2025" data-navlink="" tabindex="0">28</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td></tr><tr role="row"><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sun fc-day-future" data-date="2025-06-29" aria-labelledby="fc-dom-58"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-58" class="fc-daygrid-day-number" title="Go to June 29, 2025" data-navlink="" tabindex="0">29</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-mon fc-day-future" data-date="2025-06-30" aria-labelledby="fc-dom-60"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-60" class="fc-daygrid-day-number" title="Go to June 30, 2025" data-navlink="" tabindex="0">30</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-tue fc-day-future fc-day-other" data-date="2025-07-01" aria-labelledby="fc-dom-62"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-62" class="fc-daygrid-day-number" title="Go to July 1, 2025" data-navlink="" tabindex="0">1</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-wed fc-day-future fc-day-other" data-date="2025-07-02" aria-labelledby="fc-dom-64"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-64" class="fc-daygrid-day-number" title="Go to July 2, 2025" data-navlink="" tabindex="0">2</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-thu fc-day-future fc-day-other" data-date="2025-07-03" aria-labelledby="fc-dom-66"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-66" class="fc-daygrid-day-number" title="Go to July 3, 2025" data-navlink="" tabindex="0">3</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-fri fc-day-future fc-day-other" data-date="2025-07-04" aria-labelledby="fc-dom-68"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-68" class="fc-daygrid-day-number" title="Go to July 4, 2025" data-navlink="" tabindex="0">4</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sat fc-day-future fc-day-other" data-date="2025-07-05" aria-labelledby="fc-dom-70"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-70" class="fc-daygrid-day-number" title="Go to July 5, 2025" data-navlink="" tabindex="0">5</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td></tr><tr role="row"><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sun fc-day-future fc-day-other" data-date="2025-07-06" aria-labelledby="fc-dom-72"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-72" class="fc-daygrid-day-number" title="Go to July 6, 2025" data-navlink="" tabindex="0">6</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-mon fc-day-future fc-day-other" data-date="2025-07-07" aria-labelledby="fc-dom-74"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-74" class="fc-daygrid-day-number" title="Go to July 7, 2025" data-navlink="" tabindex="0">7</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-tue fc-day-future fc-day-other" data-date="2025-07-08" aria-labelledby="fc-dom-76"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-76" class="fc-daygrid-day-number" title="Go to July 8, 2025" data-navlink="" tabindex="0">8</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-wed fc-day-future fc-day-other" data-date="2025-07-09" aria-labelledby="fc-dom-78"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-78" class="fc-daygrid-day-number" title="Go to July 9, 2025" data-navlink="" tabindex="0">9</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-thu fc-day-future fc-day-other" data-date="2025-07-10" aria-labelledby="fc-dom-80"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-80" class="fc-daygrid-day-number" title="Go to July 10, 2025" data-navlink="" tabindex="0">10</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-fri fc-day-future fc-day-other" data-date="2025-07-11" aria-labelledby="fc-dom-82"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-82" class="fc-daygrid-day-number" title="Go to July 11, 2025" data-navlink="" tabindex="0">11</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td><td role="gridcell" class="fc-daygrid-day fc-day fc-day-sat fc-day-future fc-day-other" data-date="2025-07-12" aria-labelledby="fc-dom-84"><div class="fc-daygrid-day-frame fc-scrollgrid-sync-inner"><div class="fc-daygrid-day-top"><a id="fc-dom-84" class="fc-daygrid-day-number" title="Go to July 12, 2025" data-navlink="" tabindex="0">12</a></div><div class="fc-daygrid-day-events"><div class="fc-daygrid-day-bottom" style="margin-top: 0px;"></div></div><div class="fc-daygrid-day-bg"></div></div></td></tr></tbody></table></div></div></div></td></tr></tbody></table></div></div></div>>
                             </div>
                         </div>
                     </div>
@@ -1285,6 +1359,7 @@
             $.ajax({
                 url: $("#event_dashboard").val()+"/event/get_event_data" ,
                 method:"POST",
+
                 data: {"_token": "whNhN857bYjX10i1dwqaorEh7Y0oE0nXsv9q0SLY",'calender_type':calender_type},
                 success: function(data) {
                     (function () {
@@ -1407,18 +1482,18 @@
 
             document
                 .querySelector("#main-style")
-                .setAttribute("href", "https://sudoerp.in/assets/css/style-dark.css");
+                .setAttribute("href", "style-dark.css");
 
             document
                 .querySelector(".m-header > .b-brand > .logo-lg")
-                .setAttribute("src", "https://sudoerp.in/storage/uploads/logo/logo-light.png");
+                .setAttribute("src", "logo-light.png");
         } else {
             document
                 .querySelector("#main-style")
-                .setAttribute("href", "https://sudoerp.in/assets/css/style.css");
+                .setAttribute("href", "style1.css");
             document
                 .querySelector(".m-header > .b-brand > .logo-lg")
-                .setAttribute("src", "https://sudoerp.in/storage/uploads/logo/logo-dark.png");
+                .setAttribute("src", "logo-dark.png");
         }
     });
 
